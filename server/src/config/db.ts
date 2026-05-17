@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+console.log("Node version:", process.version);
 const connectDB = async (): Promise<void> => {
   try {
     const mongoURI = process.env.MONGO_URI;
